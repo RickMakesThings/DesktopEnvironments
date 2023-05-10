@@ -4,9 +4,9 @@
 sudo dnf -y install bspwm sxhkd picom lightdm rofi feh dunst pavucontrol alacritty nemo nemo-compare nemo-fileroller nemo-image-converter nano firefox xorg-x11-server-xorg roboto baobab gnome-calender gnome-clocks gnome-calculator gnome-system-monitor gnome-screenshot cava nm-connection-editor blueberry ffmpeg ffmpegthumbnailer redshift timeshift protonvpn-cli playerctl kde-connect
 
 # Extra software
-sudo dnf -y install lutris darktable gimp ardour6 krita scribus blender libreoffice-writer libreoffice-calc libreoffice-impress evolution obs-studio elementary-code xephyr vlc freecad inkscape icecat
+#sudo dnf -y install lutris darktable gimp ardour6 krita scribus blender libreoffice-writer libreoffice-calc libreoffice-impress evolution obs-studio elementary-code xephyr vlc freecad inkscape icecat
 # Flatpaks
-flatpak install org.freedesktop.Platform.openh264 no.mifi.losslesscut io.gitlab.librewolf-community com.visualstudio.code-oss org.signal.Signal com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE com.github.tchx84.Flatseal
+#flatpak install org.freedesktop.Platform.openh264 no.mifi.losslesscut io.gitlab.librewolf-community com.visualstudio.code-oss org.signal.Signal com.valvesoftware.Steam com.valvesoftware.Steam.CompatibilityTool.Proton-GE com.github.tchx84.Flatseal
 
 # Dependencies/packages for building
 sudo dnf -y install gcc make pkg-config cairo-devel libxcb-devel libevdev-devel systemd-devel
@@ -17,8 +17,8 @@ mkdir -p ~/{.config/{0desktop,bspwm,sxhkd,picom,rofi,dunst,alacritty,cava,neofec
 
 
 # Download the custom 0desktop repo
-cd ~/.config/0desktop
-git clone [INSERT REPO LINK]
+#cd ~/.config/0desktop
+#git clone [INSERT REPO LINK]
 
 
 # Clone Elkowar's Wacky Widgets from GitHub
